@@ -1,0 +1,99 @@
+body {
+	color:#211b1a;
+	font-family:'East Sea Dokdo', cursiva;
+	font-size: 20px;
+	line-height: 2em;
+	background:#cbb3d6 url("../imagenes/background_1.jpg") repeat 0px 0px;
+
+}
+.acercade{
+	max-width: 960px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	background-color:#fff;
+	color: #054658e6;
+
+}
+
+
+.promo_contenedor {
+
+ text-align: center;
+}
+
+.promo_contenido {
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+.pagina{
+	max-width: 960px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	background-color:#fff;
+}
+h1 { font-family: 'Raleway', sans-serif;
+	font-size: 3em;
+	font-weight: normal;
+	color:#211b1a;
+	margin-top: 40px;
+	text-shadow: 3px 2px 2px #137a98a6;
+	line-height: 55px;
+	text-align: center;
+}
+
+
+h2 { font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	text-indent: 2em;
+	text-align: center;
+
+}
+
+h3{ font-family:'Open Sans', sans-serif;
+	font-size: 1.4em;
+	margin:0 0 1em 0;
+	color: #137a98;
+}
+p{ margin:0 0 .75em 0; 
+font-size: 1.3em; 
+text-indent: 2em;
+font-family: 'Raleway', sans-serif;
+}
+
+a{ color:#d68617;}
+a:hover{
+	color:#009eff;
+}
+
+footer {
+	color:#151515;
+	background-color: #086A87;
+	padding: 40px 10px 5px; 
+	color: rgba(255, 255, 255, 0.64);
+    text-align: center;
+    font-size: 1.7em;
+}
+
+nav a {
+	color: #f5a06e;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 1.3em;	
+}
+
+nav a:hover { color: #fff; }
+
+.clear-fix { clear: both; line-height: 1px; }
+
+a {
+	text-align: center;
+
+.centrado{ 
+	margin:10px auto;
+	display:block;
+    }
+

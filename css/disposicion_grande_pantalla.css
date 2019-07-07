@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin: 0; padding: 0; }
+
+
+
+header {
+	height: 275px;
+	background: url(../imagenes/banner_grande.png);	
+}
+
+nav {
+	width: 100%;
+	display: block;
+	position: absolute;
+	background-color:#ebded6;
+
+	font-family: cursive;	
+}
+
+
+article { padding: 60px 20px 10px 20px; }
+
+.promo_contenedor { padding: 0px 0px 15px 20px; }
+
+.promo_contenedor .promo {
+	width: 33%;
+	float: left;
+	background-position: 0 3px;
+}
+
+.promo_contenedor .promo .contenido { padding: 0px 30px 0px 70px; }
+
+nav { top: 275px; }
+nav a { margin: 12px 0px 10px 20px; }
+
+@media screen and (max-width: 990px) {
+	footer { padding-left: 20px; }	
+}
+

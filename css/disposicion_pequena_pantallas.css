@@ -1,0 +1,65 @@
+header { height: 100px; background: url(../imagenes/banner_peque1.png) no-repeat right 0px; }
+
+h1 { font-family:"Aavark Cafe.ttf";
+	font-size: 2.3em;
+	font-weight: normal;
+	color:#211b1a;
+	margin-top: 20px;
+	text-shadow: 3px 2px 2px #137a98a6;
+	line-height: 55px;
+	text-align: center;
+}
+h2 { font-family: 'Raleway', sans-serif;
+	font-size: 1.3em;
+	font-weight: normal;
+	text-indent: .70em;
+}
+
+h3{ font-family:'Open Sans', sans-serif;
+	font-size: 1.3em;
+	margin:0 0 1em 0;
+	color: #137a98;
+}
+p{ margin:0 0 .75em 0; 
+font-family: 'Raleway', sans-serif;
+font-size: .90em; 
+text-indent: .75em;
+} 
+article { padding: 20px 10px 10px 20px; }
+
+nav {
+	position: static;
+	padding: 10px 0px 10px 0px;
+	background-color: #515673;	
+	color: #a6abc5;
+}
+nav a {
+	display: block;
+	margin: 15px;
+	padding: 9px;
+	border: 1px solid #a6abc5;	
+	background: url(../imagenes/flecha_mobile.png) no-repeat right center;
+	border-radius: 12px;
+}
+
+nav a:hover { color: #fff; background-color: rgba(255, 255, 255, .15); }
+
+
+.promo_contenedor { padding: 0px;
+text-align: center; }
+ .promo {
+	width: auto;
+	float: none;
+	padding: 10px 0px 0px 15px;
+	border-top: 1px solid #ccc;
+		
+}
+
+footer {
+	padding: 20px 10px 10px; 	
+}
+
+
+body { background-image: none; }
+@media screen and (max-device-width : 480) 
+
